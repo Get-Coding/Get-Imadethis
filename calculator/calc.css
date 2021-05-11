@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    background-color: aliceblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+div {
+    padding: 10px;
+}
+
+.box {
+    display: block;
+    background-color: bisque;
+
+}
+
+input {
+    border-style: none;
+
+    text-align: center;
+}
+
+.input.box {
+    max-height: 30px;
+    width: 100%;
+    display: flex;
+}
+
+.operator-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-box {
+    background-color: cornflowerblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    border: dimgray 2px;
+
+    border-radius: 10px;
+    box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 192);
+}
+.spacer{
+    margin-top: 26px;
+
+}
+
+.operatorTegn {
+    text-align: center;
+    margin: 20px;
+    
+}
